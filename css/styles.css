@@ -10,13 +10,14 @@
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .body {
   font-family: var(--main-font);
 }
 
 /* ======= HEADER ======= */
-.name-site {
+.header-name-site {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
@@ -39,18 +40,18 @@
 .menu-link:focus {
   color: var(--accent-color);
 }
-.mail-link,
-.tel-link {
+.header-mail-link,
+.header-tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
   color: var(--accent-color);
 }
 /* ======= END HEADER ======= */
@@ -85,6 +86,10 @@
 .modal-btn:hover,
 .modal-btn:focus {
   background: #188ce8;
+
+  .modal-btn {
+    cursor: pointer;
+  }
 }
 /* ======= END HERO ======= */
 
@@ -118,6 +123,105 @@
 }
 /* ======= END WORK-PROCESS ======= */
 
-/* ======= WORK-PROCESS ======= */
+/* ======= TEAM ======= */
 
-/* ======= END WORK-PROCESS ======= */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-member-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ======= END TEAM ======= */
+
+/* ======= FOOTER ======= */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-name-site {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.footer-mail-link,
+.footer-tel-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-link:focus,
+.footer-address-link:hover,
+.footer-mail-link:focus,
+.footer-mail-link:hover,
+.footer-tel-link:focus,
+.footer-tel-link:hover {
+  color: var(--accent-color);
+}
+
+/* ======= END FOOTER ======= */
+
+/* ======= MAIN PORTFOLIO ======= */
+.name-portfolio {
+  display: none;
+}
+/* ======= END MAIN PORTFOLIO ======= */
+
+/* ======= FILTER PORTFOLIO ======= */
+
+.filter-portfolio-name {
+  display: none;
+}
+.name-filter-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filter-portfolio-btn {
+  cursor: pointer;
+}
+
+/* ======= END FILTER PORTFOLIO ======= */
+
+/* ======= PROJECTS ======= */
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-about {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
