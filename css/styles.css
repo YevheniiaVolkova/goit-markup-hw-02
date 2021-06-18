@@ -12,7 +12,7 @@
   text-decoration: none;
   font-style: normal;
 }
-.body {
+body {
   font-family: var(--main-font);
 }
 
@@ -86,11 +86,11 @@
 .modal-btn:hover,
 .modal-btn:focus {
   background: #188ce8;
-
-  .modal-btn {
-    cursor: pointer;
-  }
 }
+.modal-btn {
+  cursor: pointer;
+}
+
 /* ======= END HERO ======= */
 
 /* ======= ADVANTAGES ======= */
