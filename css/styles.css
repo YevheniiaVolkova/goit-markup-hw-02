@@ -184,14 +184,10 @@
 
 /* ======= END FOOTER ======= */
 
-/* ======= MAIN PORTFOLIO ======= */
+/* ======= PORTFOLIO ======= */
 .name-portfolio {
   display: none;
 }
-/* ======= END MAIN PORTFOLIO ======= */
-
-/* ======= FILTER PORTFOLIO ======= */
-
 .filter-portfolio-name {
   display: none;
 }
@@ -207,9 +203,6 @@
   cursor: pointer;
 }
 
-/* ======= END FILTER PORTFOLIO ======= */
-
-/* ======= PROJECTS ======= */
 .project-name {
   font-weight: bold;
   font-size: 18px;
@@ -225,3 +218,4 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ======= END PORTFOLIO ======= */
