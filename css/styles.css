@@ -124,6 +124,14 @@ body {
 /* ======= END WORK-PROCESS ======= */
 
 /* ======= TEAM ======= */
+.team-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
 .team-member {
   font-weight: 500;
@@ -191,7 +199,9 @@ body {
 .filter-portfolio-name {
   display: none;
 }
-.name-filter-portfolio {
+
+.filter-portfolio-btn {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -199,10 +209,10 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.filter-portfolio-btn {
-  cursor: pointer;
-}
 
+.projects-name {
+  display: none;
+}
 .project-name {
   font-weight: bold;
   font-size: 18px;
